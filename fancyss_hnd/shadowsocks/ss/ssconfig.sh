@@ -1355,7 +1355,7 @@ creat_v2ray_json() {
 		tls)
 			local tls="{
 					\"allowInsecure\": true,
-					\"serverName\": null
+					\"serverName\":\"$ss_basic_v2ray_network_host\"
 					}"
 			;;
 		*)
